@@ -12,6 +12,12 @@ const chess = new Chess();
 let players = {};
 let currentPlayer = "W";
 
+const updatePlayerStatus = () => {
+    io.emit("playerStatus", {
+        white: !!players.white,
+        black: !!players.black
+    });
+};
 
 app.set("view engine" ,"ejs") 
 app.use (express.static(path.join(__dirname, "public")));
@@ -32,13 +38,15 @@ io.on("connection", function (usocket){
     }else {
         usocket.emit ("spectatorRole");
     }
+    updatePlayerStatus();
 
     usocket.on("disconnect",function(){
-        if(usocket.id=== players.white){
+        if(usocket.id === players.white){
             delete players.white;
-        }else if (usocket.id===players.black){
+        }else if (usocket.id === players.black){
             delete players.black;
         }
+        updatePlayerStatus();
     });
 
 

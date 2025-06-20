@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Document</title>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -64,11 +65,28 @@
   </style>
 </head>
 <body>
-  <div class=" w-full h-screen flex items-center justify-center bg-zinc-900">
+  <div class="container">
+    <div class="game-info">
+      <h1>bit.chess</h1>
+      <div class="player-status">
+        <h2>Players</h2>
+        <div id="white-status">
+          <span class="status-light"></span>
+          <span>White: Waiting...</span>
+        </div>
+        <div id="black-status">
+          <span class="status-light"></span>
+          <span>Black: Waiting...</span>
+        </div>
+      </div>
+      <div class="role-info">
+        <h2>Your Role</h2>
+        <p id="player-role">Connecting...</p>
+      </div>
+    </div>
     <div class="chessboard"></div>
   </div>
 
-  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js" integrity="sha512-xRllwz2gdZciIB+AkEbeq+gVhX8VB8XsfqeFbUh+SzHlN96dEduwtTuVuc2u9EROlmW9+yhRlxjif66ORpsgVA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
   <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>

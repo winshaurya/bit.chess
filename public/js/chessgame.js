@@ -106,11 +106,35 @@ const getPieceUnicode = (piece) => {
 
 socket.on("playerRole" , function(role){
     playerRole= role;
+    document.querySelector("#player-role").textContent = `You are ${role === 'w' ? 'White' : 'Black'}`;
     renderBoard();
 })
 socket.on("spectatorRole", () => { 
     playerRole = "spectator"; 
+    document.querySelector("#player-role").textContent = "You are a spectator";
+});
 
+socket.on("playerStatus", (status) => {
+    const whiteStatusLight = document.querySelector("#white-status .status-light");
+    const whiteStatusText = document.querySelector("#white-status span:last-child");
+    const blackStatusLight = document.querySelector("#black-status .status-light");
+    const blackStatusText = document.querySelector("#black-status span:last-child");
+
+    if (status.white) {
+        whiteStatusLight.classList.add("connected");
+        whiteStatusText.textContent = "White: Connected";
+    } else {
+        whiteStatusLight.classList.remove("connected");
+        whiteStatusText.textContent = "White: Waiting...";
+    }
+
+    if (status.black) {
+        blackStatusLight.classList.add("connected");
+        blackStatusText.textContent = "Black: Connected";
+    } else {
+        blackStatusLight.classList.remove("connected");
+        blackStatusText.textContent = "Black: Waiting...";
+    }
 });
 
 socket.on("boardState", function(fen){
