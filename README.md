@@ -19,13 +19,13 @@
 
 ## 🧠 Project Overview
 
-Hi, I’m [Shaurya Mishra](https://www.linkedin.com/in/shaurya-mishra-0b4751204/) — a web and AI enthusiast. I built **Bit.Chess** as a fun project to play real-time chess with my friend.  
+Hi, I’m [Shaurya Mishra](https://www.linkedin.com/in/shaurya-mishra-0b4751204/) — a web guy. I built **Bit.Chess** as a fun project to play real-time chess with my friend.  
 In the process, I learned how to build multiplayer, real-time applications using **WebSockets** and **Socket.IO**.
 
 This app supports:
 - 🎮 Real-time 2-player chess matches
 - ♻️ Move synchronization via Socket.IO
-- 🔐 Secure authentication via JWT
+- 🔐 Client-Side Sleek Drag And Drop 
 - 🎨 Sleek responsive UI with Tailwind and React
 - 🧠 Backend with Node.js + Express
 
@@ -39,7 +39,7 @@ This app supports:
 - 🔒 Sleek Drag and Drop feature
 - 📡 WebSocket-powered move synchronization
 - 🌐 Fully responsive UI
-- 🚀 Vite for fast React builds
+- 🚀 Deployed via Render 
 
 ---
 
@@ -55,15 +55,8 @@ This app supports:
 
 ---
 
-## 📷 Screenshots
 
-> 🎥 Demo preview or game in action:
 
-| Gameplay Preview |
-|------------------|
-| ![Game Demo](assets/bitchess_demo.gif) |
-
----
 
 ## 📁 Project Structure
 
@@ -112,7 +105,7 @@ Make sure MongoDB is running locally or use a cloud MongoDB URI.
 - Real-time bidirectional communication using **WebSockets**
 - How **Socket.IO** handles events and rooms
 - Managing frontend and backend sockets
-- Sleek Drag And Drop Feature
+- Sleek Drag And Drop Client Side
 - Chessboard rendering logic and multiplayer synchronization
 - Organizing full-stack projects with **MongoDB**, **Node.js**, and **React**
 
