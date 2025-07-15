@@ -6,14 +6,13 @@
 [![Express](https://img.shields.io/badge/API-Express.js-black?logo=express)](https://expressjs.com/)
 [![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Style-Tailwind_CSS-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
-[![MongoDB](https://img.shields.io/badge/Database-MongoDB-4EA94B?logo=mongodb)](https://mongodb.com/)
-[![JWT](https://img.shields.io/badge/Auth-JWT-yellow?logo=jsonwebtokens)](https://jwt.io/)
 [![Vite](https://img.shields.io/badge/Bundler-Vite-purple?logo=vite)](https://vitejs.dev/)
 
 ---
 
 <p align="center">
-  <img src="assets/bitchess_demo.gif" alt="bit.chess demo" width="700"/>
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f8397a3-5caa-4010-b9a8-f1beaa1a62c2" />
+
 </p>
 
 ---
@@ -29,7 +28,7 @@ This app supports:
 - 🔐 Secure authentication via JWT
 - 🎨 Sleek responsive UI with Tailwind and React
 - 🧠 Backend with Node.js + Express
-- 📦 MongoDB for user and game data storage
+
 
 ---
 
@@ -37,7 +36,7 @@ This app supports:
 
 - ♟️ Play live chess against friends
 - 👥 Multiplayer lobby system
-- 🔒 Auth system with JWT tokens
+- 🔒 Sleek Drag and Drop feature
 - 📡 WebSocket-powered move synchronization
 - 🌐 Fully responsive UI
 - 🚀 Vite for fast React builds
@@ -46,14 +45,13 @@ This app supports:
 
 ## 🛠 Tech Stack
 
-| Layer        | Tech                             |
-|--------------|----------------------------------|
-| **Frontend** | ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) React, ![Tailwind](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg) Tailwind CSS, Vite |
-| **Backend**  | ![Node.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg) Node.js, ![Express](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg) Express |
-| **Real-time**| ![Socket.IO](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg) Socket.IO |
-| **Database** | ![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg) MongoDB |
-| **Auth**     | JWT (JSON Web Token) |
-| **Other**    | Chessboard rendering logic, chess.js, REST APIs |
+| Layer        | Technologies                                                                                                                  |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20"/> React, Tailwind CSS, Vite |
+| **Backend**  | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="20"/> Node.js, Express        |
+| **Realtime** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" width="20"/> Socket.IO           |
+| **Database** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="20"/> MongoDB               |
+| **Extras**   | JWT Auth, Chess.js, REST APIs                                                                                                 |
 
 ---
 
@@ -114,7 +112,7 @@ Make sure MongoDB is running locally or use a cloud MongoDB URI.
 - Real-time bidirectional communication using **WebSockets**
 - How **Socket.IO** handles events and rooms
 - Managing frontend and backend sockets
-- Using **JWT** for secure user authentication
+- Sleek Drag And Drop Feature
 - Chessboard rendering logic and multiplayer synchronization
 - Organizing full-stack projects with **MongoDB**, **Node.js**, and **React**
 
@@ -129,6 +127,4 @@ I'm always open to feedback or collaborations on exciting real-time projects or 
 
 ---
 
-## 📄 License
 
-MIT License — use, remix, and share with credit.
