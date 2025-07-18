@@ -116,7 +116,7 @@ Make sure MongoDB is running locally or use a cloud MongoDB URI.
 I'm always open to feedback or collaborations on exciting real-time projects or AI systems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shaurya%20Mishra-blue?logo=linkedin)](https://www.linkedin.com/in/shaurya-mishra-0b4751204/)  
-[![GitHub](https://img.shields.io/badge/GitHub-winshaurya1-black?logo=github)](https://github.com/winshaurya1)
+[![GitHub](https://img.shields.io/badge/GitHub-winshaurya-black?logo=github)](https://github.com/winshaurya)
 
 ---
 
